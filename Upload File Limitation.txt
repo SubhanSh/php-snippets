@@ -1,0 +1,7 @@
+For modifying upload size limitation in php, you should set below values in php.ini file:
+
+file_uploads = on          (Default is on)
+upload_max_filesize = 200M (Default is 2M)
+post_max_size = 200M       (Default is 2M)
+
+Note: You also need to modify request size limitation in your webserver.
